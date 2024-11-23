@@ -1,0 +1,65 @@
+{
+  "kind": "collectionType",
+  "collectionName": "quotes",
+  "info": {
+    "singularName": "quote",
+    "pluralName": "quotes",
+    "displayName": "Quote",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "DeviceType": {
+      "type": "string"
+    },
+    "Name": {
+      "type": "string"
+    },
+    "Phone": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "DeviceName": {
+      "type": "string"
+    },
+    "ProblemType": {
+      "type": "string"
+    },
+    "ProblemDescription": {
+      "type": "text"
+    },
+    "DevicePhotos": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "DesktopDescription": {
+      "type": "text"
+    },
+    "DeviceModel": {
+      "type": "string"
+    },
+    "DeviceBrand": {
+      "type": "string"
+    },
+    "Year": {
+      "type": "string"
+    },
+    "SerialNumber": {
+      "type": "string"
+    },
+    "Postcode": {
+      "type": "string"
+    }
+  }
+}
